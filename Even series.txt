@@ -1,0 +1,14 @@
+#!/bin/bash
+
+echo "Enter the value of n:"
+read n
+
+echo "Even number series from 2 to $n:"
+
+num=2
+
+while [ $num -le $n ]
+do
+  echo $num
+  num=$((num+2))
+done
